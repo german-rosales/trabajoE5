@@ -324,7 +324,7 @@
       
    }   
    #menu h3{
-      font-size: 15px;
+      font-size: 20px;
       font-weight: 600;
       text-align: center;
       width: 100%;
@@ -361,7 +361,8 @@
       
    }
    #categoria h3{
-      font-size: 15px;
+      font-size: 20px;
+      font-weight: 600;
       margin-top: 30px;
       padding: 0;
 
@@ -379,7 +380,8 @@
    
    #lo-mas-populares h3{
       margin-top: 30px;
-      font-size:15px;
+      font-size:20px;
+      font-weight: 600;
       text-align: center;
       margin-bottom: 0;
      }

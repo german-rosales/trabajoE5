@@ -1,0 +1,450 @@
+@media (max-width:875px){
+   */
+    .logo{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        padding: 0;
+    }
+    .home a{
+      font-size: 10px;
+    }
+
+    .casita{
+      width: 20px;
+    }
+    
+    .carrito{
+      width: 25px;
+      height: 25px;
+     
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+        flex-wrap:nowrap;
+        align-items: center;
+        padding: 15px 10px;
+      
+    }
+
+    .navbar{
+        font-display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .menu-header{
+        display: flex;
+        gap: 15px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    #hero{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      
+    }
+
+    .hero-conteiner{    
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    .hero-conteiner h1{
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .hero-descripcion span{
+        font-size: 40px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-descripcion p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .hero-boton{ 
+        font-size: 15px;
+        width: 100px;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+     }
+     .imagen-conteiner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      }
+
+      .imagen-conteiner img{
+         width: 300px;
+         height: 300px; 
+         padding-bottom: 35px;  
+      }
+      #menu h3{
+            font-size: 25px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+               
+         }
+         .conteiner{
+            padding-top: 20px;
+         }
+
+      .menu-conteiner{
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+         }
+
+      .boton{
+            margin: 0;
+         }
+      #categoria h3{
+            padding: 25px;
+            padding-bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+
+      .conteiner-categoria{
+            padding: 0;
+            padding-top: 20px;
+         }
+
+      #lo-mas-populares{
+            margin: 0;
+            padding: 0;
+         }
+
+      #lo-mas-populares h3{
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            width: 100%;  
+            font-size: 25px; 
+         }
+        
+      .ultimo-conteiner{
+            padding: 0;
+            justify-content: center;
+            gap: 30px;
+         }
+
+      .contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 220px;
+            width: 300px;
+            padding: 20px;         
+         }
+
+      .contenedor img{
+            width: 250px;
+            height: 100px;
+            padding-top: 0px;
+         }
+
+      .precio{
+            display: flex;
+            gap: 50px;
+         }
+
+      .conteiner-footer{
+            display: flex;
+            padding: 20px;
+            width: 100%;
+            padding-top: 0;
+            margin-top: 50px;
+            align-items: center;
+            justify-content: center;
+         }
+
+      footer a{
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+
+      footer p{
+            padding: 0;     
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+        }
+
+
+}
+
+
+@media(max-width:576px){
+
+   header{
+      justify-content: space-between;
+      align-items: center;
+      height: 40px; 
+      background-color: none;
+    }
+
+   .logo{
+      width: 60px;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+   
+   }
+
+   .casita{
+      width: 10px;
+   }
+
+   .home a{
+      font-size: 10px;
+   }
+
+   .home{
+      gap: 2px;
+   }
+
+   .carrito{
+      width: 15px;
+      height: 15px;
+   }
+
+   .profile{
+      width: 15px;
+      height: 15px;
+   }
+
+   .menu-header{
+      gap: 5px;
+      padding: 0;
+      margin: 0;
+   }
+
+   #hero{   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      padding-top: 40px;
+   }
+
+   .hero-conteiner h1{
+      width: 100%;
+      font-size: 30px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+
+   .hero-conteiner{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      
+   }
+
+   .hero-descripcion{
+      width: 100%;
+   }
+
+   .hero-descripcion span{
+      font-size: 25px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      
+   }
+
+   .hero-descripcion p{
+      font-size: 15px;
+      font-weight: 500;
+      padding-left: 80px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  .hero-boton{ 
+      font-size: 10px;
+      width: 70px;
+      height: 25px;
+      padding: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 0;
+   
+   }
+   
+   .imagen-conteiner{
+      width: 100%;
+   }
+
+   .imagen-conteiner img{
+      width: 150px;
+      height: 150px;
+      padding-bottom: 5px;
+   }
+   #menu{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      
+      
+   }   
+   #menu h3{
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 0;
+   }
+   .menu-conteiner{
+      display: flex;
+      margin: 0 15px;
+      
+   
+   }
+   .conteiner{
+      display: flex;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      gap: 20px;
+      
+   }
+   .menu-conteiner img{
+      width: 80px;
+      height: 80px;
+      
+      }
+
+   
+   .p-nombre{
+      font-size: 15px;
+      }
+   .p-descripcion{
+      font-size: 12px;
+      display: flex;
+      
+   }
+   #categoria h3{
+      font-size: 15px;
+      margin-top: 30px;
+      padding: 0;
+
+   }  
+   .descripcion-categoria{
+      margin: 0 15px;
+      padding: 0;
+   }
+   .conteiner-categoria{
+      margin: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      gap: 20px;
+   }
+   
+   #lo-mas-populares h3{
+      margin-top: 30px;
+      font-size:15px;
+      text-align: center;
+      margin-bottom: 0;
+     }
+     .ultimo-conteiner{
+      padding-top: 20px;
+     }
+     
+   .contenedor{
+      margin:0 15px;
+      text-align: center;
+      width: 250px;
+   }
+
+   .contenedor img{
+      width: 200px;
+      height: 80px;
+      padding-top: 0px;
+   }
+
+   .precio p{
+      font-size: 20px;
+   }
+   .precio{
+      
+      gap: 20px;
+   }
+
+   .boton{
+      width: 80px;
+      height: 20px;
+      font-size: 15px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding: 1px;
+   }
+
+   .coment{
+      font-size: 15px;
+   }
+ 
+   footer a{
+      font-size: 10px;
+      margin: 0;
+      padding: 0;
+  }
+
+    footer p{
+      padding: 0;   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 15px;
+  }
+
+  .lista-footer{
+   gap: 10px;
+  }
+}
+
+
+
+
+
+
+
+

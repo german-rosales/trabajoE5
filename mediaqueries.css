@@ -1,5 +1,5 @@
 @media (max-width:875px){
- *{border: red solid 1px;} 
+ /* *{border: red solid 1px;}  */
  .menu-carrito{
       display: flex;
    } 
@@ -10,6 +10,7 @@
    }
    #menu-cart:checked +  .compras-conteiner{
       display: flex;
+      z-index: 2;
    }
    .menu-header{
       display: none;
@@ -22,6 +23,7 @@
    
    #menu-toggle:checked + .menu-header{
       display: flex;
+      z-index: 2;
    }
    
     .logo{
@@ -64,9 +66,30 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+        display:flex;
         /* background-color: aqua; */
         
     }
+    .home{
+      position: relative;
+    }
+   .casita::after, .home a::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: var(--blanco);
+      padding: 0;
+      left: 0;
+      bottom: 0;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.15s ease;
+   }
+ .casita:hover::after, .home a:hover::after{
+      transform-origin: left;
+      transform: scaleX(1);
+   }
     .toggle{
       font-size: 25px;
     }
@@ -253,14 +276,21 @@
          border:solid #64d3ff 1px ;
          display: flex;
          flex-direction: column;
-         justify-content: center;
          align-items: center;
+      
          border-top: none;
          border-radius: 15px 0 0px 15px;
          gap: 30px;
          display: none;
          height: calc(100vh - 80px);
          overflow-y: scroll;
+         width: 50%;
+          
+      
+         
+         }
+         .compras-conteiner::-webkit-scrollbar{
+            display: none;
          }
         
          
@@ -303,6 +333,7 @@
 }
 .compras-carrito img{
    width:90px;
+   height: 60px;
 }
 .compras-carrito{
    padding:20px 20px;
@@ -311,6 +342,9 @@
    line-height: 30px;
    width: 80%;
    max-width: 500px;
+   justify-content: center;
+   align-items: center;
+
 }
 
 .carrito-conteiner{
@@ -650,7 +684,6 @@ color: rgb(253, 1, 1);
    left: 0;
    border: none;
    height: calc(100vh - 40px);
-   overflow: scroll;
    
   }
   .compras-carrito{

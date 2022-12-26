@@ -373,11 +373,13 @@
    font-weight: 800;
    cursor: pointer;
 }
-.mas-menos:hover{
+.mas-menos:hover,
+.mas-menos:active{
    background-color: #64d3ff;
    transition: all 0.5s ease;
 
 }
+
 .cantidad{
    color: var(--blanco);
 }
@@ -424,10 +426,12 @@
    cursor: pointer;
    transition: all 0.3s ease;
 }
-.compra-final:hover{
+.compra-final:hover,
+.compra-final:active{
    background-color: #64d3ff;
    transition: all 0.3 ease;
 }
+
 .compra-final:active{
 color: rgb(253, 1, 1);
 }

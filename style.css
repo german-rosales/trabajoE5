@@ -186,10 +186,13 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    transition: all 0.5s ease-in;
     
 }
-
+.hero-boton:hover{
+    transition: all 0.5 ease-in-out;
+    background: #789c14;
+}
 
  .imagen-conteiner{
     display: flex;
@@ -279,7 +282,13 @@ main{
     padding: 5px 20px;
     color: var(--blanco);
     cursor: pointer;
+    transition: all 0.5s ease;
     
+    
+}
+.boton:hover{
+    background: #789c14;
+    transition: all 0.5s ease-in;
 }
 
 #categoria{
